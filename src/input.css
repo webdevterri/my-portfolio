@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Not sure why there are errors on these. I copy pasted from the docs. */
