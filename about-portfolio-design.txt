@@ -4,9 +4,11 @@ I didn't want my site to look like every other modern, ultra-minimalist site tha
 
 Do all sites have to look like they were designed by the same person? So many sites today are not that memorable. 
 
-For large screens, I wanted the information to be presented on a single page, completely above the fold, so I used 100vh (100% viewport height). Of course, this wouldn't make sense on small (mobile) screens so I simply stacked the boxes vertically and made a few minor tweaks to the header.
+For large screens, I wanted the information to be presented on a single page, completely above the fold, so I used 100vh (100% viewport height). This means no scrolling. 
 
-Instead of a bright, white background I opted for a dark mode (dark gray background) with a high contrast of white for fonts and other elements like borders and icons.
+Of course, this wouldn't make sense on small (mobile) screens so I simply stacked the boxes vertically and made a few minor tweaks to the header.
+
+Instead of a bright, white background I opted for a dark mode (dark gray background) with a high contrast of white for fonts and other elements like borders and icons. I may later code a toggle for the visitor to choose between the light and dark mode, but if I had to choose one, I'd obviously go for the dark (or "night") mode.
 
 Growing up in the 90s and learning to code websites on free hosts like Geocities and Angelfire, I'm a bit nostalgic for the web 1.0 aesthetics but didn't want to completely offend the modern senses so I met in the middle. 
 
