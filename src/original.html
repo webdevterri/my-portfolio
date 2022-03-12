@@ -10,81 +10,81 @@
   </head>
   <body class="bg-slate-900 font-mono text-white m-2 flex flex-col gap-y-2">
     <!-- Row 1 HEADER NAV-->
-    <div class="flex p-3 border-2 border-white rounded-md justify-center">
-      <h1
-        class="flex lg:justify-start  items-center text-3xl font-bold"
-      >
-        webdevterri
-      </h1>
+    <div class="flex p-3 border-2 border-white rounded-md">
+      <nav class="flex flex-row justify-between gap-2 w-full">
+        <h1
+          class="flex justify-start items-center text-3xl font-bold pr-4 border-r-8 border-r-white"
+        >
+          webdevterri
+        </h1>
+        <div class="flex justify-between">
+          <button
+            class="uppercase border-2 border-white rounded-full px-4 py-2 mr-2 hover:bg-white hover:text-slate-900 hover:font-bold"
+          >
+            <a href="#" class="no-underline">Projects</a>
+          </button>
+          <button
+            class="uppercase border-2 border-white rounded-full px-4 py-2 mr-2 hover:bg-white hover:text-slate-900 hover:font-bold"
+          >
+            <a href="#" class="no-underline">Resume</a>
+          </button>
+          <button
+            class="uppercase border-2 border-white rounded-full px-4 py-2 mr-2 hover:bg-white hover:text-slate-900 hover:font-bold"
+          >
+            <a href="#" class="no-underline">Blog</a>
+          </button>
+          <button
+            class="uppercase border-2 border-white rounded-full px-4 py-2 hover:bg-white hover:text-slate-900 hover:font-bold"
+          >
+            <a href="#" class="no-underline">Contact</a>
+          </button>
+        </div>
+      </nav>
     </div>
-
-    <div class="flex p-3 border-2 border-white rounded-md justify-center">
-      <h2 class="text-2xl">Front End Web Developer Portfolio</h2>
-    </div>
-<!-- TOP NAV BUTTONS -->
-    <div class="flex flex-col items-center p-3 gap-2">
-      <div class="">
-        <button
-          class="uppercase border-2 border-white rounded-full px-4 py-2 hover:bg-white hover:text-slate-900 hover:font-bold"
-        >
-          <a href="#" class="no-underline">Projects</a>
-        </button>
-        <button
-          class="uppercase border-2 border-white rounded-full px-4 py-2 lg:mr-2 hover:bg-white hover:text-slate-900 hover:font-bold"
-        >
-          <a href="#" class="no-underline">About</a>
-        </button>
-      </div>
-      <div class="">
-        <button
-          class="uppercase border-2 border-white rounded-full px-4 py-2 mr-2 hover:bg-white hover:text-slate-900 hover:font-bold"
-        >
-          <a href="https://webdevterri.hashnode.dev/" class="no-underline">Blog</a>
-        </button>
-        <button
-          class="uppercase border-2 border-white rounded-full px-4 py-2 hover:bg-white hover:text-slate-900 hover:font-bold"
-        >
-          <a href="#" class="no-underline">Contact</a>
-        </button>
-      </div>
-    </div>
-
     <!-- Row 2 -->
     <!-- change gap to repsonsive (percentage) -->
-    <!-- <div class="flex flex-row justify-center gap-2 gap-y-2"> -->
-    <div class="flex flex-col p-3 lg:w-1/3 border-2 border-white rounded-md">
-      <p><span class="font-bold uppercase">Who?</span> Terri Jones</p>
-      <p>
-        <span class="font-bold uppercase">What?</span> Front end web developer
-        for hire
-      </p>
-      <p><span class="font-bold uppercase">When?</span> Right now</p>
-      <p>
-        <span class="font-bold uppercase">Where?</span> Memphis, TN, USA
-        (Remote)
-      </p>
-      <p>
-        <span class="font-bold uppercase">How?</span> HTML, CSS, JavaScript,
-        Python
-      </p>
-    </div>
-    <div class="flex flex-col p-3 lg:w-1/3 border-2 border-white rounded-md">
-      <h3 class="text-xl uppercase">Libraries, Frameworks, Software</h3>
-      <div class="flex flex-row gap-2">
-        <div class="flex flex-col mr-2">
-          <p>Tailwind CSS</p>
-          <p>React</p>
-        </div>
-        <div class="flex flex-col">
-          <p>VScode</p>
-          <p>Figma</p>
-          <p>Adobe XD</p>
+    <div class="flex flex-row justify-center gap-2 gap-y-2">
+      <div
+        class="flex flex-col justify-center p-3 w-1/3 border-2 border-white rounded-md"
+      >
+        <h2 class="text-2xl">
+          Front End <br />Web Developer<br />
+          Portfolio
+        </h2>
+      </div>
+      <div class="flex flex-col p-3 w-1/3 border-2 border-white rounded-md">
+        <p><span class="font-bold uppercase">Who?</span> Terri Jones</p>
+        <p>
+          <span class="font-bold uppercase">What?</span> Front end web developer
+          for hire
+        </p>
+        <p><span class="font-bold uppercase">When?</span> Right now</p>
+        <p>
+          <span class="font-bold uppercase">Where?</span> Memphis, TN, USA
+          (Remote)
+        </p>
+        <p>
+          <span class="font-bold uppercase">How?</span> HTML, CSS, JavaScript,
+          Python
+        </p>
+      </div>
+      <div class="flex flex-col p-3 w-1/3 border-2 border-white rounded-md">
+        <h3 class="text-xl uppercase">Libraries, Frameworks, Software</h3>
+        <div class="flex flex-row justify-between">
+          <div class="ml-3">
+            <p>Tailwind CSS</p>
+            <p>React</p>
+          </div>
+          <div class="">
+            <p>VScode</p>
+            <p>Figma</p>
+            <p>Adobe XD</p>
+          </div>
         </div>
       </div>
     </div>
-    <!-- </div> -->
     <!-- Row 3 -->
-    <div class="flex flex-col lg:flex-row gap-2">
+    <div class="flex flex-row gap-2">
       <div class="border-2 border-white rounded-md p-3">
         <h3 class="text-xl uppercase">Project</h3>
         <h4 class="text-lg">Title of Project</h4>
@@ -111,28 +111,24 @@
       </div>
     </div>
     <!-- Row 4 -->
-    <div class="flex flex-col lg:flex-row gap-2">
-      <div class="lg:w-1/3 border-2 border-white rounded-md p-3">
-        <a class="text-xl uppercase" href="/project.html">See more projects...</a></h3>
+    <div class="flex flex-row gap-2">
+      <div class="w-1/3 border-2 border-white rounded-md p-3">
+        <h3 class="text-xl uppercase">See more projects...</h3>
       </div>
-      <div class="flex flex-col lg:w-1/3 border-2 border-white rounded-md p-3">
+      <div class="flex flex-col w-1/3 border-2 border-white rounded-md p-3">
         <h3 class="text-xl uppercase">Blog</h3>
         <p>Title of Blog Post</p>
+        <!-- <p>Title of Blog Post</p> -->
         <p>Title of Blog Post</p>
-        <p class="lg:hidden">Title of Blog Post</p>
-        <a href="https://webdevterri.hashnode.dev/" class="ml-auto">
         <button
-          class="uppercase border-2 border-white rounded-full px-4 py-1 w-fit hover:bg-white hover:text-slate-900 hover:font-bold"
+          class="uppercase border-2 border-white rounded-full px-4 py-1 ml-auto w-fit hover:bg-white hover:text-slate-900 hover:font-bold"
         >
           Read More
         </button>
-      </a>
       </div>
-      <div class="flex flex-col lg:w-1/3 border-2 border-white rounded-md p-3 gap-2">
-        <div class="">
-          <h3 class="text-xl uppercase">Me Around the Web</h3>
-        </div>
-        
+      <div class="flex flex-col w-1/3 border-2 border-white rounded-md p-3">
+        <h3 class="text-xl uppercase">Me Around the Web</h3>
+
         <div class="flex flex-row justify-between">
           <a href="https://github.com/webdevterri">
             <svg
@@ -193,10 +189,12 @@
     <div
       class="flex flex-row justify-center w-full border-2 border-white rounded-md p-3"
     >
+      <footer class="">
         <p class="text-sm text-center">
-          Site designed by webdevterri.<br>
-          Copyright © 2022, webdevterri. All rights reserved.
+          Site designed in Adobe XD, made with Tailwind CSS, and hosted on
+          Namecheap.
         </p>
+      </footer>
     </div>
   </body>
 </html>
